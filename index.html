@@ -6,15 +6,31 @@
   <title>Document</title>
 </head>
 <body>
-  <label>
-    Email
-    <input type="text" name="email">
-  </label>
-  <label>
-    Password
-  </label>
-  <label>
-    Github username
-  </label>
+  <form>
+    <label>
+      Email
+      <input type="text" name="email">
+    </label>
+    <label>
+      Password
+      <input type="text" name="password">
+    </label>
+    <label>
+      Github username
+      <input type="text" name="Github username">
+    </label>
+    <article>
+      <input type="radio" name="service tiers" value="Enterprise">Enterprise
+      <input type="radio" name="service tiers" value="Pro">Pro
+      <input type="radio" name="service tiers" value="Free">Free
+    </article>
+    <article>
+      <input type="checkbox" id="checkbox" checked>
+      <label for="checkbox">
+        Remember Me
+      </label>
+    </article>
+  </form>
+
 </body>
 </html>
